@@ -1,0 +1,25 @@
+[user]
+	email = chris@gibsonic.com
+	name = Chris Gibson
+[push]
+	default = simple
+[core]
+	editor = vim
+	excludesfile = ~/.gitignore
+    autocrlf = input
+
+[alias]
+	commit-amend = commit -a --amend --no-edit
+	logg = log --all --decorate=full --oneline --graph
+	log-backup = log backup/master^.. --all --decorate --oneline --graph
+	log-origin = log origin/master^.. --all --decorate --oneline --graph
+	log-today = log --since=midnight --all --decorate --oneline --graph
+	log-yesterday = log HEAD@{yesterday} --all --decorate --oneline --graph
+	sba = show-branch -a 
+
+[diff]
+	tool = vimdiff
+[merge]
+	tool = vimdiff
+[difftool]
+	prompt = false
