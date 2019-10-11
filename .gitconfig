@@ -10,7 +10,8 @@
 
 [alias]
 	commit-amend = commit -a --amend --no-edit
-	logg = log --all --decorate=full --oneline --graph
+	logg = log --decorate=full --oneline --graph
+	logb = log --all --decorate=full --oneline --graph
 	log-backup = log backup/master^.. --all --decorate --oneline --graph
 	log-origin = log origin/master^.. --all --decorate --oneline --graph
 	log-today = log --since=midnight --all --decorate --oneline --graph
