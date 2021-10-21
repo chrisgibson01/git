@@ -1,6 +1,7 @@
 [user]
-	email = chris@gibsonic.com
+	email = c.gibson@nchain.com
 	name = Chris Gibson
+	signingkey = B754A56E39949FB735AA33C228574C360C84118C
 [push]
 	default = simple
 [core]
